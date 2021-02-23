@@ -1,0 +1,150 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size:3rem;
+	line-height:1.5;
+	font-weight:800;
+	color:#414141;
+}
+h2{
+	font-family:'Ubuntu', sans-serif;
+	color:#015668;
+	padding-bottom:30px;
+}
+#title{
+	background-color:#ffc107;
+	padding-bottom:4%;
+}
+.row{
+	margin:auto 0;
+}
+
+
+/*Navigation bar*/
+.navbar{
+	padding:0 0 4rem 0;
+}
+.navbar-brand{
+	font-family:'Ubuntu', sans-serif;
+	font-size:2rem;
+	font-weight: bold;
+}
+.nav-item{
+	padding:0 17px;
+}
+.nav-link{
+	font-size:1.1rem;
+	font-weight:100;
+}
+
+/*title*/
+
+.ben-button{
+	margin:5% 3% 5% 0;
+}
+.dark-button{
+	margin:5% 3% 5% 0;
+}
+.container-fluid{
+	padding:3% 6% 8%;
+}
+.rotate{
+	transform:rotate(25deg);
+	width:37%;
+	position:absolute;
+	right:20%;
+}
+@media (max-width:766px){
+	.rotate{
+		position:static;
+		transform:rotate(0);
+	}
+	.row{
+		text-align:center;
+	}
+}
+/*features*/
+
+#features{
+	padding:7% 14%;
+	text-align:center;
+	background-color:#fff;
+	position:relative;
+	z-index:1; /*although here is no need coz it is already bellow in html flow*/
+}
+.feature-box{
+	colour:
+}
+.faw{
+	color:#1f4068;
+}
+.faw:hover{
+	color:#ffa41b;
+}
+.qual{
+	font-family: 'Montserrat', sans-serif;
+	font-weight:bold;
+}
+/*testimonials-section*/
+#testimonials{
+	text-align: center;
+	background-color:#b7efcd;
+}
+.testimonial-image{
+	width:15%;
+}
+.carousel-item{
+	padding:7% 15%;
+}
+
+/*press*/
+
+#press{
+	background-color:#b7efcd;
+	text-align:center;
+	padding-bottom:3%;
+}
+.press-pic{
+	width:15%;
+	margin: 2% 3%;
+}
+
+/*pricing*/
+
+.price-life{
+	padding:3% 8%;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:bold;
+	color:#f0134d;
+}
+#pricing{
+	text-align:center;
+	background-color:#ffe8df;
+	padding-bottom:40px;
+}
+
+/*call to action*/
+
+#cta{
+	background-color:#b2ebf2;
+	text-align:center;
+	padding:5% 15% 
+}
+.dc{
+	padding-bottom:3%;
+	color:#0f4c81;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:bold;
+}
+/*footer*/
+
+#footer{
+	padding:7% 15%;
+	text-align:center;
+}
+.social{
+	margin:20px 20px;
+	font-size:2rem;
+}
