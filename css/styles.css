@@ -75,13 +75,13 @@ h2{
 	z-index:1; /*although here is no need coz it is already bellow in html flow*/
 }
 .feature-box{
-	colour:
+	color:pink;
 }
 .faw{
 	color:#1f4068;
 }
 .faw:hover{
-	color:#ffa41b;
+	color:#917c5d;
 }
 .qual{
 	font-family: 'Montserrat', sans-serif;
